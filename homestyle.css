@@ -1,0 +1,327 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #f0f0f0;
+}
+a{
+    text-decoration: none;
+}
+.explore a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+header{
+    width: 100%;
+    height: 57px;
+    background-color: #2874f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-container{
+    top: 2px;
+    width: 100px;
+    position: relative;
+}
+.explore{
+    top: -3px;
+    width: 80px;
+    display: flex;
+    height: 100%;
+    position: relative;
+   
+}
+.explore a{
+    display: flex;
+}
+.explore p{
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 550;
+    color: antiquewhite;
+    font-family: Roboto,Arial,sans-serif;
+}
+.plus{
+    color: #ffe500;
+}
+.explore img{
+    width: 10px;
+    height: 10px;
+    margin: 0;
+}
+.search-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 564px;
+    min-width: 300px;
+    width: 100%;
+    height: 36px;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 0 5px;
+    position: relative;
+    box-shadow: -5px 5px -5px rgba(0,0,0,.20);
+
+}
+.search-container input{
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+.search-container i{
+    width: 15px;
+    color: #2874f0;
+    padding-right: 25px;
+}
+.login-button{
+    margin: 0 40px;
+    background-color: #fff;
+    padding: 6px 40px;
+}
+
+.login-button a{
+    color: #2874f0;
+    font-size: 15px;
+    font-weight: 550;
+    text-decoration: none;
+    font-family: Roboto,Arial,sans-serif;
+
+}
+.seller-link{
+    color: #fff;
+    font-weight:550 ;
+    font-size: 15px;
+    font-family:Roboto,Arial,sans-serif ;
+    padding: 0 10px;
+}
+.more-button{
+    padding: 0 20px;
+    color: #fff;
+    font-weight:550 ;   
+    font-family:Roboto,Arial,sans-serif ;
+}
+.more-button i{
+    font-size: 10px;
+}
+.more-button:hover i{
+    transform: rotate(180deg);
+}
+.cart-button{
+    padding-left: 20px;
+    color: #fff;
+}
+.cart-button a{
+    color: #fff;
+    font-weight: 550;
+    font-size: 15px;
+    font-family:Roboto,Arial,sans-serif ;
+}
+
+/****catagory****/
+
+.catagory{
+    width: 100%;
+    height: 122px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,.20);
+}
+
+.catagory-container{
+    width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.catagory-item{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-size: 14px;
+}
+.catagory-item i{
+    font-size: 10px;
+   margin-left: 4px;
+}
+.catagory-item:hover i{
+    transform: rotate(180deg);
+}
+.catagory-item a{
+    text-decoration: none;
+    color: rgb(69, 67, 67);
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 550;
+    font-size: 13px;
+}
+.catagory-item:hover a{
+    color: #2874f0;
+}
+.catagory-item img{
+    width: 64px;
+    height: 64px;
+}
+/*****main******/
+
+.main-image{
+    margin-top: 16px;
+    height: 280px;
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/844/140/image/dd0caa743c184971.jpg?q=50);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/****second*****/
+
+.main-items{
+   margin-top: 8px;
+    height: 362px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+
+}
+.main-electronics{
+    width: 264px;
+    height: 100%;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.main-electronicbutton{
+    margin-top: 132px;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}.main-electronicbutton button{
+    margin-top: 24px;
+    height: 40px;
+    background-color: #2874f0;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.electronics-list{
+    height: 100%;
+    overflow-x: auto;
+     display: flex;
+    width: 100%;  
+    min-width: 202px;
+}
+.electronics-item{
+    width:100%; 
+    height: 100%;
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.electronics-item img{
+    max-width:100%;
+    max-height: 100%;
+    margin:auto;
+}
+.electronics-item-head{
+    margin-top: 19px;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 13px;
+    color: rgb(37, 37, 37);
+    font-weight: 550;
+    text-align: center;
+}
+.electronics-item-price{
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #388e3c;
+    font-family: Roboto,Arial,sans-serif;
+}
+.electronics-item-sub{
+    opacity: 0.6;
+    margin-top: 8px;
+    font-weight: 300;
+    font-size: 12px;
+    font-family: Roboto,Arial,sans-serif;
+}
+
+.main-Beauty-items{
+    width: 290px;
+    height: 100%;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    
+}
+.footer-main{
+    margin-top: 15px;
+    width: 100%;
+    height: 360px;
+    background-color: #172337;
+}
+.footer-content{
+    width: 100%;
+    height: 100%;
+    margin-left: 65px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color: #172337;
+}
+.About{
+   margin: 0 20px;
+    width: 100px;
+    font-size: 12px;
+    color: #5e6167;
+    font-family: Roboto,Arial,sans-serif;
+    margin-bottom: 10px;
+}
+.one{
+    padding-top: 8px;
+    color: #fff;
+    display: block;
+    font-size: 11px;
+}
+.mailus{
+    border-left: 2px;
+    border: #dbe1ee;
+    color: #5e6167;
+    margin: 0 20px;
+}
+.Mail-adderss{
+    padding-top: 20px;
+    color: #fff;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 11px;
+}
+.adderss{
+    border-left: 2px;
+    border: #dbe1ee;
+    color: #5e6167;
+    margin: 0 20px
+}
+.office-adderss{
+    padding-top: 20px;
+    color: #fff;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 11px;
+}
